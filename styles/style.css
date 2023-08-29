@@ -5,6 +5,9 @@ font-family: 'Open Sans', sans-serif */
     margin: 0;
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+}
 .header {
     display: flex;
     padding: 70px;
@@ -67,6 +70,8 @@ font-family: 'Open Sans', sans-serif */
     margin: auto;
     margin-top: 80px;
     text-align: center;
+    max-height: 1922px;
+    padding: 100px 0;
 }
 
 .deal_text h1 {
@@ -155,7 +160,8 @@ font-family: 'Open Sans', sans-serif */
 .latest_deals {
 
     margin: auto;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
     background-image: url('../images/Rectangle\ 9.png');
     background-repeat: no-repeat;
@@ -189,7 +195,16 @@ font-family: 'Open Sans', sans-serif */
 .latest_deals input[type="text"] {
     width: 700px;
     height: 64px;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 30px;
+    
+}
+/* .latest_deals input::placeholder{
+    font-family: 'Lato', sans-serif !important;
+} */
+
+::placeholder {
+    color: rgba(39, 39, 39, 0.60);
     font-family: 'Lato', sans-serif;
 }
 
@@ -339,4 +354,42 @@ footer {
 
 .pinki_text {
     padding-left: 60px;
+}
+
+.bonus {
+    background-image: url(../images/roses.jpg);
+    margin-top: 80px;
+    background-color:#E554730D;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.bonus h1{
+    padding: 40px 0 30px 0;
+    color: white;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.bonus li {
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.deal_text span{
+    color: #E55473;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 }

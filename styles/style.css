@@ -197,6 +197,8 @@ body{
     height: 64px;
     font-family: 'Lato', sans-serif;
     margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
     
 }
 /* .latest_deals input::placeholder{
